@@ -39,6 +39,8 @@ public class Homework {
 
         driver.navigate().refresh();
 
+        driver.manage().window().maximize();
+
         driver.quit();
 
 
