@@ -19,10 +19,15 @@ public class Homework2 {
         driver.get("https://int1.darkorbit.com/index.es?lang=tr");
 
         WebElement kullaniciAdi = driver.findElement(By.id("bgcdw_login_form_username"));
-        kullaniciAdi.sendKeys("NoGameNoLife_");
+        kullaniciAdi.sendKeys("Ay_Yıldız_00");
 
         WebElement kullaniciSifre = driver.findElement(By.id("bgcdw_login_form_password"));
         kullaniciSifre.sendKeys("xwenes150620");
+
+        kullaniciSifre.submit();
+        //Giris yapildi !
+
+
 
 
 
